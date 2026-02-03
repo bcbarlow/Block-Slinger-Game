@@ -239,7 +239,7 @@ int main(int argc, char *argv[])
    glutInitWindowSize(1000, 500);
    glutInitWindowPosition(500, 250);
    glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE | GLUT_DEPTH);
-   glutCreateWindow("Bootleg Angry Birds");
+   glutCreateWindow("Block Slinger");
    glutMouseFunc(mouse);
    glutMotionFunc(motion);
    glutTimerFunc(33, timer, 0);
